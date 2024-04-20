@@ -178,7 +178,7 @@ public class Routes extends Fragment implements OnMapReadyCallback {
         }
 
         LatLng originLatLng = new LatLng(origin.getLatitude(), origin.getLongitude());
-        String apiKey = "AIzaSyDepnk_Vlv1_9OT6MM-wPQ9LsqzQ1nKZtI";
+        String apiKey = "API-KEY";
         String url = getDirectionsUrl(originLatLng, destination, apiKey);
 
 
